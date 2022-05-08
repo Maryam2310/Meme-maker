@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#c91d78), to(#6610c1));
+  background: linear-gradient(90deg, #c91d78 0%, #6610c1 100%);
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.main-wrapper {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90vw;
+  height: 100vh;
+}
+
+.main-wrapper h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.main-wrapper .meme-maker-container {
+  width: 90%;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.main-wrapper .meme-maker-container .input {
+  padding: .5rem;
+}
+
+.main-wrapper .meme-maker-container .input input[type='text'] {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: .3rem;
+  text-transform: capitalize;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+.main-wrapper .meme-maker-container button {
+  border: 0;
+  outline: 0;
+  padding: .7rem;
+  text-transform: capitalize;
+  background-color: #301934;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.main-wrapper .meme-maker-container button:hover {
+  background-color: #fff;
+  color: #301934;
+}
+
+.show-meme {
+  background-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  width: 100%;
+  text-align: center;
+  word-break: break-all;
+  text-transform: uppercase;
+  text-shadow: #000 0px 0px 12px;
+  padding: 10px;
+}
+
+.top-text {
+  position: absolute;
+  top: 0;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 480px) {
+  .show-meme {
+    height: 350px;
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
