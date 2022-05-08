@@ -23,7 +23,7 @@
         if (result == true) {
             return true;
         } else {
-            alert('please enter the correct url starting with https://');
+            alert('Please enter the correct url starting with https://');
             return false;
         }
 

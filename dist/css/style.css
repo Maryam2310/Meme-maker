@@ -57,6 +57,8 @@ body {
   text-transform: capitalize;
   background-color: transparent;
   border-bottom: 2px solid white;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .main-wrapper .meme-maker-container button {
